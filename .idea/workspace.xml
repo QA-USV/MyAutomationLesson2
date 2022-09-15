@@ -68,7 +68,7 @@
       <recent name="ru.netolody" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV1">
+  <component name="RunManager" selected="Gradle.MobileBankApiTestV4">
     <configuration name="MobileBankApiTestV1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,7 +143,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--debug" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,10 +186,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MobileBankApiTestV4" />
         <item itemvalue="Gradle.MobileBankApiTestV1" />
         <item itemvalue="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
-        <item itemvalue="Gradle.MobileBankApiTestV4" />
         <item itemvalue="Gradle.MobileBankApiTestV2" />
       </list>
     </recent_temporary>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663264686181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1663265315665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663265315665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
