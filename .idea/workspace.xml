@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV6.java" afterDir="false" />
-    </list>
+    <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/QAEngineer/QANetologyLessons/MyAutomationLessons/MyAutomation2",
+    "last_opened_file_path": "D:/QAEngineer/QANetologyLessons/MyAutomationLessons/MyAutomation2/artifacts",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.40804598"
@@ -67,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QAEngineer\QANetologyLessons\MyAutomationLessons\MyAutomation2\artifacts" />
       <recent name="D:\QAEngineer\QANetologyLessons\MyAutomationLessons\MyAutomation2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -112,6 +94,28 @@
       <option name="presentableId" value="Default" />
       <updated>1663259965372</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1663260950660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663260950660</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1663260957664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663260957664</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1663261032560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663261032560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

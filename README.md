@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/iq1775aqwyau2433?svg=true)](https://ci.appveyor.com/project/QA-USV/myautomation2)
