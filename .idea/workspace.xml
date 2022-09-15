@@ -68,7 +68,30 @@
       <recent name="ru.netolody" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts">
+  <component name="RunManager" selected="Gradle.MobileBankApiTestV1">
+    <configuration name="MobileBankApiTestV1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netolody.MobileBankApiTestV1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MobileBankApiTestV1.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,29 +138,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MobileBankApiTestV3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netolody.MobileBankApiTestV3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MobileBankApiTestV4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,7 +161,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MobileBankApiTestV5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobileBankApiTestV4.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -174,7 +174,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netolody.MobileBankApiTestV5&quot;" />
+            <option value="&quot;ru.netolody.MobileBankApiTestV4.shouldReturnDemoAccounts&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MobileBankApiTestV1" />
+        <item itemvalue="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV4" />
         <item itemvalue="Gradle.MobileBankApiTestV2" />
-        <item itemvalue="Gradle.MobileBankApiTestV3" />
-        <item itemvalue="Gradle.MobileBankApiTestV5" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663263343341</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1663264686181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663264686181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
