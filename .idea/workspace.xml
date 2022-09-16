@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accounts.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/accounts.schema.json" afterDir="false" />
-    </list>
+    <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +90,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MobileBankApiTest.shouldReturnDemoAccounts4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobileBankApiTest.shouldCheckLastFourNumbersForSecondAccount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -107,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netolody.MobileBankApiTest.shouldReturnDemoAccounts4&quot;" />
+            <option value="&quot;ru.netolody.MobileBankApiTest.shouldCheckLastFourNumbersForSecondAccount&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MobileBankApiTest" />
+        <item itemvalue="Gradle.MobileBankApiTest.shouldCheckLastFourNumbersForSecondAccount" />
         <item itemvalue="Gradle.MobileBankApiTest.shouldReturnDemoAccounts8" />
         <item itemvalue="Gradle.MobileBankApiTest.shouldReturnDemoAccounts7" />
         <item itemvalue="Gradle.MobileBankApiTest.shouldReturnDemoAccounts6" />
-        <item itemvalue="Gradle.MobileBankApiTest.shouldReturnDemoAccounts4" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663322710034</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial commit">
+      <created>1663328447136</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663328447136</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
