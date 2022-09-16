@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accounts.schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV6.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <recent name="ru.netolody" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV4">
+  <component name="RunManager" selected="Gradle.MobileBankApiTest.shouldReturnDemoAccounts8">
     <configuration name="MobileBankApiTestV1 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -95,7 +99,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MobileBankApiTestV1.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobileBankApiTestV3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,30 +112,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netolody.MobileBankApiTestV1.shouldReturnDemoAccounts&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MobileBankApiTestV2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netolody.MobileBankApiTestV2&quot;" />
+            <option value="&quot;ru.netolody.MobileBankApiTestV3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,13 +168,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MobileBankApiTest.shouldReturnDemoAccounts8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netolody.MobileBankApiTest.shouldReturnDemoAccounts8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MobileBankApiTest.shouldReturnDemoAccounts8" />
         <item itemvalue="Gradle.MobileBankApiTestV4" />
+        <item itemvalue="Gradle.MobileBankApiTestV3" />
         <item itemvalue="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV1 (1)" />
-        <item itemvalue="Gradle.MobileBankApiTestV2" />
-        <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663318662088</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Initial commit">
+      <created>1663320426137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320426137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
