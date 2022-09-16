@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59434aed-ba3d-46ef-ae59-8398a3e3e1ad" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/accounts.schema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netolody/MobileBankApiTestV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MobileBankApiTestV4">
-    <configuration name="MobileBankApiTestV1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobileBankApiTestV1 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +146,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--debug" />
+        <option name="scriptParameters" value="--scan" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -189,10 +190,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MobileBankApiTestV4" />
-        <item itemvalue="Gradle.MobileBankApiTestV1" />
         <item itemvalue="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts" />
-        <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
+        <item itemvalue="Gradle.MobileBankApiTestV1 (1)" />
         <item itemvalue="Gradle.MobileBankApiTestV2" />
+        <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663266773148</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial commit">
+      <created>1663318662088</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663318662088</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
