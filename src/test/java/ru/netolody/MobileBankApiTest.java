@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.*;
 
 class MobileBankApiTest {
     @Test
-    void shouldReturnDemoAccounts() {
+    void shouldCheckStatusCode() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -19,7 +19,7 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts1() {
+    void shouldCheckSchema() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -30,7 +30,7 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts2() {
+    void shouldCheckNumberOfObjects() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -41,7 +41,7 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts3() {
+    void shouldCheckCurrencyForFirstAccount() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -52,7 +52,7 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts4() {
+    void shouldCheckCurrencyForSecondAccount() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -63,7 +63,7 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts5() {
+    void shouldCheckBalanceForFirstAccount() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -74,29 +74,29 @@ class MobileBankApiTest {
     }
 
     @Test
-    void shouldReturnDemoAccounts6() {
+    void shouldCheckLastFourNumbersForFirstAccount() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
                 .get("/demo/accounts")
                 .then()
-                .body("[0].number", equalTo("0668"))
+                .body("[0].number", stringContainsInOrder ("0668"))
         ;
     }
 
     @Test
-    void shouldReturnDemoAccounts7() {
+    void shouldCheckLastFourNumbersForSecondAccount() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
                 .get("/demo/accounts")
                 .then()
-                .body("[1].number", equalTo("9192"))
+                .body("[1].number", stringContainsInOrder ("9192"))
         ;
     }
 
     @Test
-    void shouldReturnDemoAccounts8() {
+    void shouldCheckFirstAccountName() {
         given()
                 .baseUri("http://localhost:9999/api/v1")
                 .when()
@@ -106,5 +106,14 @@ class MobileBankApiTest {
         ;
     }
 
-
+    @Test
+    void shouldCheckThirdAccountName() {
+        given()
+                .baseUri("http://localhost:9999/api/v1")
+                .when()
+                .get("/demo/accounts")
+                .then()
+                .body("[2].name", equalTo("Текущий зарплатный счёт"))
+        ;
+    }
 }
